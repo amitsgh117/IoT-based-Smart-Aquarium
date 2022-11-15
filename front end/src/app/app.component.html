@@ -1,0 +1,15 @@
+<body class="body">  
+<div class="box">
+  <div class="box2">
+    <div class="data">
+      <p id="p1"><b>pH Value: {{ data.pH_data[data.pH_data.length-1].ph }}</b></p>
+      <p id="p2"><b>Light Value: {{ data.light_data[data.light_data.length-1].light }}</b></p>
+      <!-- <p id="p1"><b>pH Value: {{ 6.4 }}</b></p>
+      <p id="p2"><b>Light Value: {{ 25 }}</b></p> -->
+    </div>
+  </div>
+  <div class="container">  
+  <button (click)="getDataFromAPI()" id ="btn"> Check Values </button>  
+  </div>  
+</div>
+</body>  

@@ -1,0 +1,57 @@
+.body{
+    background-color: rgb(1, 12, 9);
+}
+.box{
+    position:absolute; 
+    display: inline-block;
+    top:10%; 
+    left:35%; 
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('../../fish.jpg');
+}
+.box2{
+    position:absolute; 
+    display: inline-block;
+    top:38%; 
+    left:32%; 
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(175, 248, 248);
+}
+.container{  
+    position:absolute; 
+    display: inline-block;
+    top:60%; 
+    left:50%; 
+    line-height: 40px; 
+    margin-top:-20px; 
+    margin-left:-75px;  
+}  
+.data{
+    position:absolute; 
+    font-size: large;
+    top:140%; 
+    left:13%; 
+}
+#btn{  
+font-size: 25px;  
+}  
+#p1{
+    color: black;
+    text-align: center;
+    width: 300px; 
+    line-height: 40px; 
+    margin-top:-85px; 
+    margin-left:-75px;  
+}
+#p2{
+    color: black;
+    text-align: center;
+    width: 300px; 
+    line-height: 40px; 
+    margin-top:-85px; 
+    margin-left:-75px;  
+}
