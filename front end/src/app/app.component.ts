@@ -13,13 +13,13 @@ export class AppComponent implements OnInit {
 
   }
 
-  // public data!: Object;
   public data:any = []
 
   ngOnInit(){
     this.getDataFromAPI();
   }
 
+  // Integrating API
   getDataFromAPI(){
     this.service.getData().subscribe((response)=>{
       this.data = response;

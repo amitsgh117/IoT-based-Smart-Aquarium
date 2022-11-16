@@ -8,6 +8,7 @@ export class AppServiceService {
 
   constructor(private http : HttpClient) { }
 
+  // API integration
   getData(){
     return this.http.get('/api/getData');
   }
