@@ -36,6 +36,8 @@ Connect wires between the following pins:
 
 Then connect one wire of Solenoid valve with the battery's +ve terminal, it's other wire to the relay and battery's -ve terminal to the relay. Figure of the same is included in the Report as well as in ```/Images/``` .
 
+![plot](./Images/pH complete setup.jpg)
+
 ### Raspberry Pi and LED connection
 Connect wires between the following:
 | Raspberry Pi | LED |
