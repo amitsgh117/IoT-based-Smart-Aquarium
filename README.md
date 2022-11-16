@@ -21,6 +21,7 @@ Connect wires between the following pins:
 | 5V | V+ |
 | GND | G |
 | A0 | Po |
+
 Then connect the pH sensor electrode with pH Sensor Board.
 
 
