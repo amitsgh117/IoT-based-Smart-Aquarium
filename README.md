@@ -23,6 +23,7 @@ Connect wires between the following pins:
 | A0 | Po |
 
 Then connect the pH sensor electrode with pH Sensor Board.
+![ph measure](https://user-images.githubusercontent.com/85020065/202157699-350878e4-31dd-4e6b-adcf-a19785f20dda.jpg)
 
 
 ### Arduino, Relay and Solenoid Valve connection
@@ -34,7 +35,10 @@ Connect wires between the following pins:
 | GND | GND |
 | D12 pin | IN1 input |
 
-Then connect one wire of Solenoid valve with the battery's +ve terminal, it's other wire to the relay and battery's -ve terminal to the relay. Figure of the same is included in the Report as well as in ```/Images/``` .
+Then connect one wire of Solenoid valve with the battery's +ve terminal, it's other wire to the relay and battery's -ve terminal to the relay. 
+
+![solenoid connection](https://user-images.githubusercontent.com/85020065/202157884-b09fbd82-7d9d-4eb0-9976-80eec685df01.jpg)
+
 
 ### Raspberry Pi and LED connection
 Connect wires between the following:
@@ -42,6 +46,8 @@ Connect wires between the following:
 | ------ | ------ |
 | GPIO 17 & GND | LED 1 |
 | GPIO 11 & GND | LED 2 |
+
+![led OFF](https://user-images.githubusercontent.com/85020065/202157969-8d6ee4b3-8786-477e-af2a-0595884312b7.jpg)
 
 ## Project Structure and Code description
 
