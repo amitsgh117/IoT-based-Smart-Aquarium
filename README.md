@@ -1,5 +1,8 @@
 # IoT based Smart Aquarium
 
+## Link to the repository: 
+https://github.com/amitsgh117/IoT-based-Smart-Aquarium
+
 ## Hardware Requirements
 
 * Raspberry Pi 3
