@@ -35,7 +35,7 @@
 ## STEPS TO RUN:
 
 1) Connect the Arduino (with all pH sensor and relay connection) to the PC using the USB cable. RUN and UPLOAD the ```/arduino code/ph/ph.ino``` in the Arduino IDE. Make sure that it is printing the pH values in the Serial Monitor every 2 seconds. Remove the USB and connect it to the Raspberry Pi.
-2) Connect the Raspberry Pi (with all LED connections) to the PC using Type B cable. Connect it to WiFi (The board used in this Projects connects to a WiFi network with {Name: Rpi, Password:00000000}). Open the Raspberry Pi terminal and log in. (Log in credentials of our board: {Username: pi, Password: iotians}).
+2) Connect the Raspberry Pi (with all LED connections) to the PC using Type B cable. Connect it to WiFi (The board used in this Project connects to a WiFi network with {Name: Rpi, Password:00000000}). Open the Raspberry Pi terminal and log in. (Log in credentials of our board: {Username: pi, Password: iotians}).
 3) Duplicate the files ```/Raspberry Pi code copy/requirements.txt``` and ```/Raspberry Pi code copy/sensor.py``` in any directory. (In our board, just navinate to ```/Desktop/Group8``` directory where files already exists).
 4) Install all the dependencies using: 
 ```sh
@@ -53,6 +53,7 @@ python3 sensor.py
 8) Connect the mobile phone to the same network with which Raspberry Pi is connected. (In our case, WiFi network with {Name: Rpi, Password:00000000}). In the PhonePi+ app, enter the Raspberry Pi IP address, set frequency corresponding to LightSensor as 2000 and turn ON the LightSensor.
 
 This will start streaming sensors data on Raspberry Pi as well as sending it to the PC through socket communication. In the PC, this data is received and gets recorded in ```/socket/sensor_output.json``` file in real-time.
+
 9) Now to view this data on the webpage, first start the backend by installing dependencies and running ```/backend/server.js``` (Make sure doing it from the correct directory):
 ```sh
 npm install
