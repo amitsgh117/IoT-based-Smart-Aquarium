@@ -96,7 +96,7 @@ node server.js
 npm install
 npm start
 ```
-11) Once its comeplete, open the browser, go to http://localhost:4200/ and click the button "_Check Values_". This will display the light and the pH values.
+11) Once its complete, open the browser, go to http://localhost:4200/ and click the button "_Check Values_". This will display the light and the pH values.
 
 ## Credits:
 
